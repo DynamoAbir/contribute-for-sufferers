@@ -1,6 +1,6 @@
 body {
   font-family: "Epilogue", sans-serif;
-  margin: none;
+  margin: 0px;
 }
 
 .main-tag {
@@ -12,6 +12,7 @@ body {
   font-size: 30px;
   text-align: center;
   color: white;
+  font-weight: 600;
 }
 .donate-button {
   margin-top: 70px;
@@ -40,3 +41,107 @@ body {
 .first-part a:hover {
   background-image: linear-gradient(45deg, rgb(0, 119, 255), white);
 }
+/*--End Of First Part--*/
+
+.second-tag {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 150px;
+}
+.second-pera {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+.money-amount {
+  display: flex;
+  font-size: 50px;
+  padding-left: 400px;
+  font-weight: 800;
+  color: rgb(108, 108, 108);
+  margin-bottom: 100px;
+}
+
+.one-h-tk {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.105);
+  border: rgba(128, 128, 128, 0.105);
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.two-h-tk {
+  padding: 20px;
+  background-color: rgba(234, 98, 98, 0.281);
+  border: 5px rgba(255, 0, 0, 0.646) solid;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.five-h-tk {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.105);
+  border: rgba(128, 128, 128, 0.105);
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.one-t-tk {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.105);
+  border: rgba(128, 128, 128, 0.105);
+  border-radius: 10px;
+  margin-right: 40px;
+}
+.five-t-tk {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.105);
+  border: rgba(128, 128, 128, 0.105);
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.other-amount-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+  margin-bottom: 70px;
+}
+textarea {
+  height: 60px;
+  width: 56%;
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: transparent;
+  font-size: 40px;
+}
+
+/*this code is searched from google*/
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+/*this code is searched from google*/
+
+.donate-button-two {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+
+  padding: 20px 40px;
+  background-image: linear-gradient(45deg, green, rgb(172, 249, 57));
+  color: white;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-left: 800px;
+}
+
+a:hover {
+  background-image: linear-gradient(45deg, rgb(0, 119, 255), white);
+}
+
+/*----End of Second Part----*/
