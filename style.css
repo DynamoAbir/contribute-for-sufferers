@@ -1,3 +1,42 @@
-h1 {
-  color: red;
+body {
+  font-family: "Epilogue", sans-serif;
+  margin: none;
+}
+
+.main-tag {
+  font-size: 90px;
+  text-align: center;
+  color: white;
+}
+.line-for-inspire {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.donate-button {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 30px;
+}
+.bonate-anch {
+  text-decoration: none;
+
+  padding: 20px 40px;
+  background-image: linear-gradient(45deg, green, rgb(172, 249, 57));
+  color: white;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.first-part {
+  padding-left: 30px;
+  padding-top: 170px;
+  padding-right: 30px;
+  padding-bottom: 170px;
+  background-image: url(./images/children-of-war-1172016.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.first-part a:hover {
+  background-image: linear-gradient(45deg, rgb(0, 119, 255), white);
 }
