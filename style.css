@@ -297,3 +297,75 @@ input {
   padding-bottom: 150px;
   background-image: url(./images/backgrround.jpg);
 }
+
+/*---End Of Third Part---*/
+
+.update-tag {
+  font-size: 60px;
+  text-align: center;
+}
+.update-pera {
+  font-size: 25px;
+  text-align: center;
+}
+.box {
+}
+.box form input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.box form input[type="text"] {
+  background: #ffff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+.box form input[type="submit"] {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #ff5153;
+  color: white;
+  left: -5px;
+  cursor: pointer;
+}
+.subscribe-part {
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 91px;
+  margin-bottom: 140px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: rgba(250, 235, 215, 0.59);
+}
+
+/*---End Of Subscribe Part--*/
+footer {
+  margin: 0px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: black;
+}
+.humble {
+  text-align: center;
+  font-size: 60px;
+  color: green;
+  font-family: "Rubik Moonrocks", cursive;
+}
+
+.last-line {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
