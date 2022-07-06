@@ -212,5 +212,88 @@ a:hover {
 }
 
 .third-part {
-  margin-bottom: 80px;
+  margin-bottom: 150px;
+}
+
+/*----End of third part---*/
+
+.contact-part-tag {
+  font-size: 60px;
+  text-align: center;
+  padding-left: 100px;
+}
+.contact-pera {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 191px;
+}
+.phone-logo {
+  height: 30px;
+}
+.phone-number {
+  font-size: 30px;
+}
+.phone {
+  display: flex;
+}
+.contact-mother {
+  display: flex;
+}
+.right-children {
+  display: block;
+}
+input {
+  width: 500px;
+  height: 30px;
+}
+.name {
+  border: 3px solid #ff5153;
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+.asking-email {
+  border: 3px solid #ff5153;
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+.asking-number {
+  border: 3px solid #ff5153;
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+.asking-massage {
+  border: 3px solid #ff5153;
+  width: 500px;
+  height: 100px;
+  border-radius: 5px;
+}
+.left-children {
+  margin-left: 600px;
+}
+.right-children {
+  margin-left: 200px;
+}
+
+.send-button {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.send-button-anch {
+  text-decoration: none;
+
+  padding: 10px 20px;
+  background-image: linear-gradient(45deg, #ff5153, white);
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.contact-section {
+  padding-top: 250px;
+  padding-bottom: 150px;
+  background-image: url(./images/backgrround.jpg);
 }
