@@ -23,9 +23,9 @@ body {
   text-decoration: none;
 
   padding: 20px 40px;
-  background-image: linear-gradient(45deg, green, rgb(172, 249, 57));
+  background-color: #e15f41;
   color: white;
-  border-radius: 10px;
+  border-radius: 50px;
   font-weight: 600;
 }
 .first-part {
@@ -39,7 +39,7 @@ body {
 }
 
 .first-part a:hover {
-  background-image: linear-gradient(45deg, rgb(0, 119, 255), white);
+  background-color: #ea8685;
 }
 /*--End Of First Part--*/
 
@@ -133,15 +133,15 @@ textarea {
   text-decoration: none;
 
   padding: 20px 40px;
-  background-image: linear-gradient(45deg, green, rgb(172, 249, 57));
+  background-color: #e15f41;
   color: white;
-  border-radius: 10px;
+  border-radius: 50px;
   font-weight: 600;
   margin-left: 800px;
 }
 
 a:hover {
-  background-image: linear-gradient(45deg, rgb(0, 119, 255), white);
+  background-color: #ea8685;
 }
 
 /*----End of Second Part----*/
@@ -219,6 +219,7 @@ a:hover {
 
 .contact-part-tag {
   font-size: 60px;
+  color: rgb(0, 104, 173);
   text-align: center;
   padding-left: 100px;
 }
@@ -232,6 +233,9 @@ a:hover {
 }
 .phone-number {
   font-size: 30px;
+  color: #0069af;
+
+  font-weight: 500;
 }
 .phone {
   display: flex;
@@ -247,31 +251,31 @@ input {
   height: 30px;
 }
 .name {
-  border: 3px solid #ff5153;
+  border: 2px solid #0069af;
   width: 500px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 .asking-email {
-  border: 3px solid #ff5153;
+  border: 2px solid #0069af;
   width: 500px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 .asking-number {
-  border: 3px solid #ff5153;
+  border: 2px solid #0069af;
   width: 500px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 .asking-massage {
-  border: 3px solid #ff5153;
+  border: 2px solid #0069af;
   width: 500px;
   height: 100px;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 .left-children {
-  margin-left: 600px;
+  margin-left: 66px;
 }
 .right-children {
   margin-left: 200px;
@@ -284,18 +288,23 @@ input {
 }
 .send-button-anch {
   text-decoration: none;
-
-  padding: 10px 20px;
-  background-image: linear-gradient(45deg, #ff5153, white);
   color: white;
-  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #0069af;
+  border-radius: 50px;
   font-weight: 600;
 }
 
 .contact-section {
-  padding-top: 250px;
-  padding-bottom: 150px;
-  background-image: url(./images/backgrround.jpg);
+  padding-top: 40px;
+  padding-bottom: 117px;
+  background-color: white#3dc1d34b;
+}
+
+.backgourd-logo {
+  height: 500px;
+  width: 500px;
+  padding-left: 100px;
 }
 
 /*---End Of Third Part---*/
@@ -360,7 +369,7 @@ footer {
   text-align: center;
   font-size: 60px;
   color: green;
-  font-family: "Rubik Moonrocks", cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .last-line {
