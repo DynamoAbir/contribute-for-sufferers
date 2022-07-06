@@ -145,3 +145,72 @@ a:hover {
 }
 
 /*----End of Second Part----*/
+
+.third-tag {
+  font-size: 70px;
+  margin-top: 200px;
+  text-align: center;
+}
+.third-pera {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 90px;
+}
+
+.medicine-logo {
+  height: 80px;
+}
+.medicine-pera {
+  font-size: 20px;
+}
+.the-plan-part {
+  display: flex;
+}
+.study-logo {
+  height: 70px;
+}
+.food-logo {
+  height: 90px;
+}
+
+.medicine-part {
+  border: none;
+  border-radius: 5px;
+  margin-left: 275px;
+  margin-right: 20px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ff79792d;
+}
+.food-part {
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  padding-left: 30px;
+  padding-right: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #778ca342;
+}
+.shelter-part {
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #a45eea2d;
+}
+
+.third-part {
+  margin-bottom: 80px;
+}
