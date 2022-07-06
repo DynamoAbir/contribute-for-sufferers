@@ -308,8 +308,7 @@ input {
   font-size: 25px;
   text-align: center;
 }
-.box {
-}
+
 .box form input {
   position: relative;
   display: inline-block;
